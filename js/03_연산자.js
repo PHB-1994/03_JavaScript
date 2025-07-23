@@ -1,12 +1,13 @@
+// 변수 선언
+
+// document(문서) : HTML 문서(파일) 내에서
+// get            : 가져오다, 얻다
+// Element        : HTML 요소
+// ById           : 아이디가 일치하는
+
+// -> HTML 문서 내에서 () 내 아이디가 일치하는 요소를 얻어오겠다.
+
 function plusFn() {
-  // 변수 선언
-
-  // document(문서) : HTML 문서(파일) 내에서
-  // get            : 가져오다, 얻다
-  // Element        : HTML 요소
-  // ById           : 아이디가 일치하는
-
-  // -> HTML 문서 내에서 () 내 아이디가 일치하는 요소를 얻어오겠다.
   const number1 = document.getElementById("input1").value;
   // const number1 = document     .       get    Element     ById ("input1")   .      value;
   //                HTML 문서     내에서 가져오겠다 태그(요소) id값이 (인풋1인) 내에서   작성한 값
