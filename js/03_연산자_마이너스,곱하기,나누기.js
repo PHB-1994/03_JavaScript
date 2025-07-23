@@ -47,8 +47,8 @@ function minusFn() {
   // 우리가 원하는 value 값은 소비자가 작성한 값을 원하는 것이기 때문에
   // 마이너스 버튼을 클릭하기 전까지 소비자가 value 값을 작성할 시간을 주어야함
   // 소비자가 작성을 모두 완료했다면 원하는 계산기 버튼을 클릭해서 계산 결과값을 확인할 수 있도록 해야함
-  const value1 = num1.value1;
-  const value2 = num1.value2;
+  const value1 = num1.value;
+  const value2 = num2.value;
 
   // input 은 기본으로 글자일 수 있기 때문에
   // 글자를 숫자로 감싸는 형변환 작업 진행
