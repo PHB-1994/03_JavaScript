@@ -86,6 +86,7 @@ const userName = document.getElementById("username");
 const userPw = document.getElementById("userpw");
 const result4 = document.getElementById("result4");
 
+이벤트;
 loginForm.addEventListener("submit", function (e) {
   // 반드시 뒤에 소괄호 붙이기!!
   // e.preventDefault; 작동안함!!
