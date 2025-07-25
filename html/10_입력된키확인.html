@@ -52,6 +52,29 @@
         }
         key[idx].style.color = "#2a8d8f";
       });
+
+      // keyup 글자색 white
+      document.addEventListener("keyup", function (e) {
+        switch (e.key.toLocaleLowerCase()) {
+          case "q":
+            idx = 0;
+            break;
+          case "w":
+            idx = 1;
+            break;
+          case "e":
+            idx = 2;
+            break;
+          case "r":
+            idx = 3;
+            break;
+          default:
+            alert("준비중입니다.");
+            return;
+        }
+        key[idx].style.color = "#white";
+        key[idx].style.color = "#333";
+      });
     </script>
   </body>
 </html>
