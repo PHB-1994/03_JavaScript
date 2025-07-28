@@ -137,24 +137,28 @@ btn.addEventListener("click", (e) => {
   if (checkList.inputId == false) {
     alert("아이디가 유효하지 않습니다.");
     inputId.focus();
+    e.preventDefault(); // 제출 방지 button type 이 submit 일때 주로 사용
     return;
   }
   // 만약에 비밀번호 값이 일치하지 않는게 맞다면 false 맞다면
   if (checkList.inputPw == false) {
     alert("비밀번호가 유효하지 않습니다.");
     inputPw.focus();
+    e.preventDefault();
     return;
   }
 
   if (checkList.inputPwCheck == false) {
     alert("비밀번호가 확인이 유효하지 않습니다.");
     inputPwCheck.focus();
+    e.preventDefault();
     return;
   }
 
   if (checkList.inputName == false) {
     alert("이름이 유효하지 않습니다.");
     inputName.focus();
+    e.preventDefault();
     return;
   }
 
@@ -163,6 +167,7 @@ btn.addEventListener("click", (e) => {
   const gender = document.querySelector("[name='gender']:checked");
   if (gender == null) {
     alert("성별을 선택해주세요.");
+    e.preventDefault();
     return;
   }
   // 모든게 true 이고 회원가입이 완료되면
