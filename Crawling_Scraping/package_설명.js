@@ -1,5 +1,8 @@
-/*
+// node_modules 가 없지만 package.json 이 존재하면 npm i 명령어를 이용하여
+// package.json  폴더와 하위 내용을 생성할 수 있다.
+// cd 명령어 사용하여 폴더 위치 찾기(Crawling_Scraping) 후 npm i 입력 하면 생길 것임
 
+/*
 package.json
 
 Node.js 에서 프로젝트의 신분증 과 같은 존재 매우 중요한 설정 파일
